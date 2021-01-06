@@ -1,0 +1,329 @@
+body{
+    background: url(../img/hexagon.jpg) no-repeat fixed center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+@media (max-width: 1000px;){
+    .container{
+        width: 50%;
+    }
+}
+
+@media (max-width: 670px;) {
+    .container{
+        width: 100%;
+    }
+}
+
+.container2{
+    display: flex;
+}
+
+@media (max-width: 1000px;){
+    .container2{
+        display: flex;
+        width: 50%;
+    }
+}
+
+@media (max-width: 670px;){
+    .container2{
+        display: flex;
+        width: 100%;
+    }
+}
+
+
+#header-1{
+    display: flex;
+    background: -moz-linear-gradient(left, aliceblue, lightblue);
+    width: 100%;
+    border: 2px solid cornflowerblue;
+}
+#header-logo{
+    font-size: 36px;
+    padding: 20px 40px;
+    color: rgb(102, 93, 93);
+}
+#header-logo h2{
+    font-size: 45px;
+    font-family: 'Nimbus Mono ps','Bold italic';
+    padding-left: 0px;
+}
+#header-logo h5{
+    font-size: 20px;
+    font-family: 'Nimbus Mono ps','Bold italic';
+}    
+#header-link{
+    padding: 33px 20px;
+    margin-left: 20%;
+}    
+#header-link a{
+    text-decoration: none;
+    color: brown;
+    font-size: 18px;
+    display: flex;
+    padding: 33px 24px
+}
+#header-link a:hover{
+    color: crimson;
+    text-shadow: 2px 2px 10px rgb(107, 87, 87);
+    font-size: 25px;
+    font-family: cursive;
+    height: 1px;
+    background-size: 20px 50px;
+}
+#link-list{
+    display: flex;
+}
+#main{
+    background-color: whitesmoke;
+    border: 2px solid rgb(172, 170, 170);
+    width: 27%;
+    margin-top: 20px;
+    margin-left: 15%;
+    opacity: 0.9;
+    color: rgba(red, green, blue, 0.9);
+}    
+#maintence{
+    margin-top: -25px;
+}
+#maintence h2{
+    padding: 20px 30px;
+    font-family: 'Dyuthi';
+    font-size: 30px;
+    text-align: center;
+    color: rgb(102, 93, 93);
+}
+#maintence hr{
+    color: lightgray;
+    width: 100px;
+    box-shadow: 1px 3px 10px black;
+}
+#maintence h3{
+    padding: 30px 0px;
+    font-family: 'FreeMono','Bold Oblique';
+    text-align: center;
+    font-size: 27px;
+    color: rgb(105, 100, 100);
+    text-shadow: 5px 4px 10px lightslategray;
+}
+#bio-paragraph{
+    font-size: 20px;
+    background: -moz-linear-gradient(bottom, whitesmoke);
+    margin-top: -25px;
+    border-bottom: 2px solid rgb(156, 156, 156);
+    border-width: 3.8px;
+}
+#bio-paragraph h5{
+    padding: 25px 30px;
+    color: slategrey;
+    text-shadow: 5px 4px 5px darkgray;
+    font-family: 'Lato','Light';
+}
+#bio-paragraph span{
+    color: brown;
+}
+#ing-1{
+    background: -moz-linear-gradient(top, aliceblue, whitesmoke);
+}
+#sosmed-bar{
+    background: -moz-linear-gradient(bottom, aliceblue, whitesmoke);
+    height: 35%;
+}    
+#sosmed-bar a{
+    text-decoration: none;
+    color: slategray;
+    text-shadow: 5px 4px 5px darkgray;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 30px 25px;
+}
+#sosmed-bar a:hover{
+    color: seagreen;
+    background-color: silver;
+    border: 0px solid black;
+}
+#sosmed-bar h4{
+    font-size: 15px;
+    padding-left: 15px;
+}
+#sosmed-bar span{
+    font-size: 20px;
+    padding-left: 15px;
+}
+#sosmed{
+    display: flex;
+    flex-wrap: wrap;
+    height: 35%;
+}
+#important-main{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 40%;
+    border: 2px solid rgb(168, 168, 168);
+    height: 150px;
+}
+#important-main h2{
+    text-align: center;
+    padding-top: 60px;
+    color: rgb(102, 93, 93);
+    font-family: 'Dyuthi';
+    font-size: 25px;
+}
+#in-bar1{
+    background: -moz-linear-gradient(left, aliceblue, whitesmoke);
+    height: 100%;
+    margin-top: -20px;
+    opacity: 0.9;
+}
+#in-bar2{
+    margin-top: 20px;
+    background-color: whitesmoke;
+    height: 250px;
+}
+#mini-bar1{
+    background-image: url(../img/events-background.jpg);
+    background-size: cover;
+    height: 250px;
+}
+#mini-bar1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    opacity: 0.9;
+}
+#mini-bar1 a{
+    color: white;
+    text-decoration: none;
+}
+#mini-bar1 a:hover{
+    color: green;
+}
+#in-bar3{
+    margin-top: 0px;
+    background-color: whitesmoke;
+    height: 0px;
+}
+#mini-bar2{
+    background: url(../img/gift.jpeg);
+    height: 208px;
+    background-size: cover;
+    opacity: 0.9;
+}
+#mini-bar2 h1{
+   font-family: 'Amatic SC';
+   font-size: 50px;
+   text-align: center;
+   padding-top: 95px; 
+}
+#mini-bar2 a{
+    text-decoration: none;
+    color: white;
+}
+#mini-bar2 a:hover{
+    color: green;
+}
+
+#main2 {
+    width: 50%;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
+#maintence2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#html-square {
+    margin-top: 70px;
+    background: coral;
+    width: 20%;
+    text-align: center;
+}
+
+#css-square {
+    margin-top: 70px;
+    background-color: cornflowerblue;
+    width: 20%;
+    text-align: center;
+}
+
+#js-square {
+    margin-top: 70px;
+    background-color: yellow;
+    width: 20%;
+    text-align: center;
+}
+
+#html-square a {
+    text-decoration: none;
+}
+
+#css-square a {
+    text-decoration: none;
+}
+
+#js-square a {
+    text-decoration: none;
+}
+
+#html-square a:hover {
+    color: teal;
+}
+
+#css-square a:hover {
+    color: teal;
+}
+
+#js-square a:hover {
+    color: teal;
+}
+
+#html-square:hover {
+    transform: rotate(360deg) scale(2);
+    transition: 1s;
+    color: 1s;
+}
+
+#css-square:hover {
+    transform: rotate(360deg) scale(2);
+    transition: 1s;
+    color: 1s;
+}
+
+#js-square:hover {
+    transform: rotate(360deg) scale(2);
+    transition: 1s;
+    color: 1s;
+}
+
+#main3 {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+
+#footer{
+    margin-top: 20px;
+    background: -moz-linear-gradient(left, aliceblue, lightblue);
+    width: 100%;
+    border: 2px solid cornflowerblue;
+}#footer-logo{
+    font-size: 10px;
+    padding: 20px 40px;
+}
+#footer-logo h2{
+    font-family: 'Courier 10 Pitch','Italic';
+}
+#last-footer h3{
+    font-size: 15px;
+    padding: 20px 40px;
+}
